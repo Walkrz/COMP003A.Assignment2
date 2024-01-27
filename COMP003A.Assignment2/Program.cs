@@ -18,7 +18,6 @@ namespace COMP003A.Assignment2
             Console.BackgroundColor = ConsoleColor.DarkBlue;
             Console.ForegroundColor = ConsoleColor.White;
 
-
             // String Section
             Console.WriteLine("***************************************");
             Console.WriteLine("String Section");
