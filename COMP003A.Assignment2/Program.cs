@@ -9,13 +9,18 @@ namespace COMP003A.Assignment2
         static void Main(string[] args)
         {
             // Console Section
-            Console.Write("***************************************");
-            Console.Write("Console Section");
+            Console.Write("***************************************\n");
+            Console.Write("Console Section\n");
             Console.Write("***************************************\n");
             Console.Title = "COMP-003A - Assignment 2";
             Console.BackgroundColor = ConsoleColor.DarkBlue;
             Console.ForegroundColor = ConsoleColor.White;
 
+
+            // String Section
+            Console.Write("***************************************\n");
+            Console.Write("String Section\n");
+            Console.Write("***************************************\n");
 
             // Ask for first name
             Console.Write("Enter First Name: ");
