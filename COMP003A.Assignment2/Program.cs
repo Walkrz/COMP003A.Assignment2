@@ -40,12 +40,12 @@ namespace COMP003A.Assignment2
             Console.Write("Enter your age in 2024: ");
             int inputAge = int.Parse(Console.ReadLine());
 
-            // Calculate birth year, not just 2023
+            // Calculate birth year, not just 2023 (Subtracted 1 for sake of birthday not happening yet)
             int currentYear = DateTime.Now.Year;
-            int birthYear = currentYear - inputAge;
+            int yearBorn = currentYear - inputAge -1;
 
             // Display full name and birth year
-            Console.WriteLine($"Hello, {firstName} {middleName} {lastName}. You were born in {birthYear}");
+            Console.WriteLine($"Hello, {firstName} {middleName} {lastName}. You were born in {yearBorn}");
         }
     }
 }
