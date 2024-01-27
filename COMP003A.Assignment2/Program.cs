@@ -44,7 +44,7 @@ namespace COMP003A.Assignment2
             int yearBorn = currentYear - inputAge -1;
 
             // Display full name and birth year
-            Console.WriteLine($"Hello, {firstName} {middleName} {lastName}. You were born in {yearBorn}");
+            Console.WriteLine($"Hello, {firstName} {middleName} {lastName}. You were born in {yearBorn}.");
             Console.Write("\n");
             Console.Write("\n");
 
