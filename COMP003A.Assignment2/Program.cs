@@ -79,7 +79,7 @@ namespace COMP003A.Assignment2
 
             // Circle Section
             Console.WriteLine("***************************************");
-            Console.WriteLine("Circle Area & Circumferece Section");
+            Console.WriteLine("Circle Area & Circumferece Calculator Section");
             Console.WriteLine("***************************************");
 
             // Prompt User
