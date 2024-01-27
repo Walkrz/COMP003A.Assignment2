@@ -11,7 +11,7 @@ namespace COMP003A.Assignment2
             // Console Section
             Console.Write("***************************************");
             Console.Write("Console Section");
-            Console.Write("***************************************");
+            Console.Write("***************************************\n");
             Console.Title = "COMP-003A - Assignment 2";
             Console.BackgroundColor = ConsoleColor.DarkBlue;
             Console.ForegroundColor = ConsoleColor.White;
