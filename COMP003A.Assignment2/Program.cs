@@ -13,7 +13,7 @@ namespace COMP003A.Assignment2
             Console.Write("Console Section\n");
             Console.Write("***************************************\n");
             Console.Write("\n");
-              Console.Write("\n");
+            Console.Write("\n");
             Console.Title = "COMP-003A - Assignment 2";
             Console.BackgroundColor = ConsoleColor.DarkBlue;
             Console.ForegroundColor = ConsoleColor.White;
@@ -46,6 +46,38 @@ namespace COMP003A.Assignment2
 
             // Display full name and birth year
             Console.WriteLine($"Hello, {firstName} {middleName} {lastName}. You were born in {yearBorn}");
+            Console.Write("\n");
+            Console.Write("\n");
+
+            // Math Section
+            Console.Write("***************************************\n");
+            Console.Write("Math Section\n");
+            Console.Write("***************************************\n");
+            Console.Write("\n");
+            Console.Write("\n");
+
+            // Prompt User
+            Console.Write("Enter an Integer for integer1: ");
+            int integer1 = int.Parse(Console.ReadLine());
+            Console.Write("Enter an Integer for integer2: ");
+            int integer2 = int.Parse(Console.ReadLine());
+
+            // Sum (+)
+            Console.WriteLine($"{integer1} + {integer2} = {integer1 + integer2}");
+
+            // Difference (-)
+            Console.WriteLine($"{integer1} - {integer2} = {integer1 - integer2}");
+
+            // Product (*)
+            Console.WriteLine($"{integer1} * {integer2} = {integer1 * integer2}");
+
+            // Quotient (/)
+            Console.WriteLine($"{integer1} / {integer2} = {integer1 / integer2}");
+
+            // Remainder (%)
+            Console.WriteLine($"{integer1} % {integer2} = {integer1 % integer2}");
+
+
         }
     }
 }
