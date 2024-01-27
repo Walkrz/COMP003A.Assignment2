@@ -83,7 +83,7 @@ namespace COMP003A.Assignment2
             Console.WriteLine("***************************************");
 
             // Prompt User
-            Console.WriteLine("Enter radius: ");
+            Console.Write("Enter radius: ");
 
             // Backend Math
             double radius = Convert.ToDouble(Console.ReadLine());
