@@ -25,19 +25,19 @@ namespace COMP003A.Assignment2
             Console.WriteLine("***************************************");
 
             // Ask for first name
-            Console.WriteLine("Enter First Name: ");
+            Console.Write("Enter First Name: ");
             string firstName = Console.ReadLine();
 
             // Ask for middle name
-            Console.WriteLine("Enter Middle Name: ");
+            Console.Write("Enter Middle Name: ");
             string middleName = Console.ReadLine();
 
             // Ask for last name
-            Console.WriteLine("Enter Last Name: ");
+            Console.Write("Enter Last Name: ");
             string lastName = Console.ReadLine();
 
             // Ask for age
-            Console.WriteLine("Enter your age in 2024: ");
+            Console.Write("Enter your age in 2024: ");
             int inputAge = int.Parse(Console.ReadLine());
 
             // Calculate birth year, not just 2023 (Subtracted 1 for sake of birthday not happening yet)
@@ -53,13 +53,11 @@ namespace COMP003A.Assignment2
             Console.WriteLine("***************************************");
             Console.WriteLine("Math Section");
             Console.WriteLine("***************************************");
-            Console.Write("\n");
-            Console.Write("\n");
 
             // Prompt User
-            Console.WriteLine("Enter an Integer for integer1: ");
+            Console.Write("Enter an Integer for integer1: ");
             int integer1 = int.Parse(Console.ReadLine());
-            Console.WriteLine("Enter an Integer for integer2: ");
+            Console.Write("Enter an Integer for integer2: ");
             int integer2 = int.Parse(Console.ReadLine());
 
             // Sum (+)
