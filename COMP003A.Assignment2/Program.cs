@@ -12,6 +12,8 @@ namespace COMP003A.Assignment2
             Console.Write("***************************************\n");
             Console.Write("Console Section\n");
             Console.Write("***************************************\n");
+            Console.Write("\n");
+              Console.Write("\n");
             Console.Title = "COMP-003A - Assignment 2";
             Console.BackgroundColor = ConsoleColor.DarkBlue;
             Console.ForegroundColor = ConsoleColor.White;
@@ -36,15 +38,14 @@ namespace COMP003A.Assignment2
 
             // Ask for age
             Console.Write("Enter your age in 2024: ");
-            int age = int.Parse(Console.ReadLine());
+            int inputAge = int.Parse(Console.ReadLine());
 
-            // Calculate birth year
+            // Calculate birth year, not just 2023
             int currentYear = DateTime.Now.Year;
-            int birthYear = currentYear - age;
+            int birthYear = currentYear - inputAge;
 
             // Display full name and birth year
-            Console.WriteLine($"Full Name: {firstName} {middleName} {lastName}");
-            Console.WriteLine($"Year of Birth: {birthYear}");
+            Console.WriteLine($"Hello, {firstName} {middleName} {lastName}. You were born in {birthYear}");
         }
     }
 }
