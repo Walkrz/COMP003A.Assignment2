@@ -9,9 +9,9 @@ namespace COMP003A.Assignment2
         static void Main(string[] args)
         {
             // Console Section
-            Console.Write("***************************************\n");
-            Console.Write("Console Section\n");
-            Console.Write("***************************************\n");
+            Console.WriteLine("***************************************");
+            Console.WriteLine("Console Section");
+            Console.WriteLine("***************************************");
             Console.Write("\n");
             Console.Write("\n");
             Console.Title = "COMP-003A - Assignment 2";
@@ -20,24 +20,24 @@ namespace COMP003A.Assignment2
 
 
             // String Section
-            Console.Write("***************************************\n");
-            Console.Write("String Section\n");
-            Console.Write("***************************************\n");
+            Console.WriteLine("***************************************");
+            Console.WriteLine("String Section");
+            Console.WriteLine("***************************************");
 
             // Ask for first name
-            Console.Write("Enter First Name: ");
+            Console.WriteLine("Enter First Name: ");
             string firstName = Console.ReadLine();
 
             // Ask for middle name
-            Console.Write("Enter Middle Name: ");
+            Console.WriteLine("Enter Middle Name: ");
             string middleName = Console.ReadLine();
 
             // Ask for last name
-            Console.Write("Enter Last Name: ");
+            Console.WriteLine("Enter Last Name: ");
             string lastName = Console.ReadLine();
 
             // Ask for age
-            Console.Write("Enter your age in 2024: ");
+            Console.WriteLine("Enter your age in 2024: ");
             int inputAge = int.Parse(Console.ReadLine());
 
             // Calculate birth year, not just 2023 (Subtracted 1 for sake of birthday not happening yet)
@@ -50,16 +50,16 @@ namespace COMP003A.Assignment2
             Console.Write("\n");
 
             // Math Section
-            Console.Write("***************************************\n");
-            Console.Write("Math Section\n");
-            Console.Write("***************************************\n");
+            Console.WriteLine("***************************************");
+            Console.WriteLine("Math Section");
+            Console.WriteLine("***************************************");
             Console.Write("\n");
             Console.Write("\n");
 
             // Prompt User
-            Console.Write("Enter an Integer for integer1: ");
+            Console.WriteLine("Enter an Integer for integer1: ");
             int integer1 = int.Parse(Console.ReadLine());
-            Console.Write("Enter an Integer for integer2: ");
+            Console.WriteLine("Enter an Integer for integer2: ");
             int integer2 = int.Parse(Console.ReadLine());
 
             // Sum (+)
@@ -76,6 +76,25 @@ namespace COMP003A.Assignment2
 
             // Remainder (%)
             Console.WriteLine($"{integer1} % {integer2} = {integer1 % integer2}");
+            Console.Write("\n");
+            Console.Write("\n");
+
+            // Circle Section
+            Console.WriteLine("***************************************");
+            Console.WriteLine("Circle Area & Circumferece Section");
+            Console.WriteLine("***************************************");
+
+            // Prompt User
+            Console.WriteLine("Enter radius: ");
+
+            // Backend Math
+            double radius = Convert.ToDouble(Console.ReadLine());
+            double area = Math.PI * Math.Pow(radius, 2);
+            double circumference = 2 * Math.PI * radius;
+
+            //Output
+            Console.WriteLine($"The area is: {area}");
+            Console.WriteLine($"The circumference is: {circumference}");
 
 
         }
